@@ -10,9 +10,9 @@ import java.util.HashMap;
 
 public class EmployeeDAO {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/mylocal";
+    private static final String URL = "jdbc:mysql://localhost:3306/yourdb";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "Malvi12Gaurav32";
+    private static final String PASSWORD = "yourpassword";
 
     private static final String INSERT_STATEMENT = "INSERT INTO myLocal.EmployeeRecords " +
             "VALUES(?,?,?,?,?,?,?,?,?,?)";
